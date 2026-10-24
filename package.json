@@ -1,0 +1,20 @@
+{
+  "name": "recipes",
+  "version": "1.0.0",
+  "description": "API for serving recipes",
+  "license": "ISC",
+  "author": "Laura",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon server.js",
+    "seed": "node api/db/seed.js",
+    "read": "node api/db/read.js",
+    "delete": "node api/db/delete.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.10.3"
+  }
+}
